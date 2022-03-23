@@ -83,7 +83,7 @@ def admin_only(function):
     return check
 
 
-db.create_all()
+# db.create_all()
 
 
 @login_manager.user_loader
